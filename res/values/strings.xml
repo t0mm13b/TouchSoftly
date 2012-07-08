@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">TouchSoftly</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TouchSoftly</string>
+    
+    <string name="textView1">TouchSoftly is a proof of concept in how to make a screen overlay on top of anything.</string>
+    <string name="textView2">Click on Start to see the overlay appear.</string>
+    <string name="textView3">Click on Stop to remove the overlay.</string>
+    <string name="textView4">Unfortunately it does not work properly due to the system permission required to be able to inject a page up/down keystroke event into an app.</string>
+    <string name="buttonStart">Start</string>
+    <string name="buttonStop">Stop</string>
+    <string name="alreadyStarted">The service was already started on boot. No need to start another copy.</string>
+    <string name="stoppedButStartUpActivated">The service is stopped but will restart again next time on boot.</string>
+    <string name="categoryGeneralTitle">General</string>
+    <string name="checkboxPrefsAutoStartTitle">Auto start when Android starts.</string>
+    <string name="checkboxPrefsAutoStartSummary">Start the application automatically after boot</string>
+    <string name="keyAutoStart">autoStart</string>
+    <string name="keyActivatedViaBoot">isActivatedViaBoot</string>
+
+</resources>

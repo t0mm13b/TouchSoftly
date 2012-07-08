@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:layout_alignParentRight="true"
+	android:layout_alignParentTop="true" android:orientation="vertical">
+
+	<Button
+	    android:id="@+id/btnPageUp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:background="#00000000"
+	    android:text="Page Up"
+	    android:textColor="@color/CornflowerBlue"
+	    android:textStyle="bold"
+	    android:width="75dp" />
+
+	<Button
+	    android:id="@+id/btnPageDown"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/btnPageUp"
+	    android:background="#00000000"
+	    android:text="Page Dn"
+	    android:textColor="@color/CornflowerBlue"
+	    android:textStyle="bold"
+	    android:width="75dp" />
+
+</RelativeLayout>
